@@ -29,8 +29,13 @@ header button {
   padding: 5px;
   width: 20vh;
   border-radius: 8px;
-  color: #065ca1;
   margin-left: 120px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+header button:hover{
+box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+transform: translateY(-2px);
 }
 
 .logo {
@@ -44,14 +49,16 @@ header button {
   text-decoration: none;
   color: #faf7f5;
   padding: 6px 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 0 10px;
   font-weight: 600;
+  transition: 0.3s ease;
 }
 
 .navigation a:hover {
   background-color: #faf7f5;
   color: #0c3469;
+  border-radius: 20px;
 }
 
 .paralax {
@@ -261,6 +268,7 @@ header button {
   color: #bed2d9;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .skill-card .desk button:hover {
@@ -293,5 +301,19 @@ footer p {
   margin-left: 70px;
   margin-top: 80px;
   color: #b7e2f1;
+}
+
+.adress h3{
+  color: #b7e2f1;
+  margin-left: 70px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.contact h3{
+  color: #b7e2f1;
+  margin-left: 70px;
+  margin-top: 30px;
+  position: absolute;
 }
 
